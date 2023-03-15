@@ -7,7 +7,7 @@ from datetime import time
 
 def selector(request):
     time = time.now()
-    print time
+    print(time)
     return render(request, 'generator.html')
 
 def graphic(request):
