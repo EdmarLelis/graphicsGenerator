@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: var(--base-color);
+    background-image: linear-gradient(to bottom, var(--base-color), black);
+    background-attachment: fixed;
     color: white;
 }
 
@@ -49,10 +50,11 @@ body {
 
 nav {
     letter-spacing: normal;
+    background-image: linear-gradient(to bottom, var(--main-color), rgb(26, 26, 255));    
+    border-radius: 0px 0px 25px 25px;
 }
 
 .menu-list {
-    display: inline-flex;
 }
 
 .nav-list{
@@ -66,9 +68,14 @@ nav {
 }
 
 li {
+    cursor: pointer;
     margin-top: 35px;
     margin-left: 70px;
     margin-right: 70px;
+}
+
+li a:hover{
+    color: rgb(255, 255, 43);
 }
 
 #graphic-colum{
