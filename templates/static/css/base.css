@@ -32,7 +32,7 @@ body {
     color: var(--accent-color);
 }
 
-.logo-name {
+.logo-name p{
     color: var(--accent-color);
     text-align: center;
     display: flex;
