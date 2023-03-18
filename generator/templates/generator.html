@@ -11,38 +11,41 @@ Graphics Generator
 
 {% block 'dashboard' %}
 
-    <div class="form">
+    <main>
+        <div class="form">
 
-        <div class="select">
-            <p>Type of graphic:</p>
-            <select name="type" id="type">
-                <option value="None">None</option>
-                <option value="Colums">Colums graphics</option>
-                <option value="Colums">Line graphics</option>
-            </select>
-        
+            <div class="select">
+                <p>Type of graphic:</p>
+                <select name="type" id="type">
+                    <option value="None">None</option>
+                    <option value="Colums">Colums graphics</option>
+                    <option value="Colums">Line graphics</option>
+                </select>
+            
+            </div>
+    
+            <form action="">
+    
+                <br>
+                <br>
+                <p>Graphic title:</p>
+                <input type="text" name="title" id="title" class="form-text" placeholder="Title">
+                <br>
+                <br>
+                <p>Vertical values:</p>
+                <input type="text" class='form-text' placeholder="value1, value2, value3...">
+                <br>
+                <br>
+                <p>Horizontal values:</p>
+                <input type="text" class='form-text' placeholder="value1, value2, value3...">
+                <br>
+            </form>
+    
+    
+            <input class="submit" type='submit' id="submit" name="submit" value="Submit" title="Submit">
+    
         </div>
-
-        <form action="">
-
-            <br>
-            <br>
-            <p>Graphic title:</p>
-            <input type="text" name="title" id="title" class="form-text" placeholder="Title">
-            <br>
-            <br>
-            <p>Vertical values:</p>
-            <input type="text" class='form-text' placeholder="value1, value2, value3...">
-            <br>
-            <br>
-            <p>Horizontal values:</p>
-            <input type="text" class='form-text' placeholder="value1, value2, value3...">
-            <br>
-        </form>
-
-
-        <input class="submit" type='submit' id="submit" name="submit" value="Submit" title="Submit">
-
-    </div>
+    </main>
+    
 
 {% endblock 'dashboard' %}

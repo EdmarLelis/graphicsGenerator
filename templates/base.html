@@ -13,29 +13,7 @@
     <title>{% block 'title' %}{% endblock %}</title>
 </head>
 <body>
-    
-    <nav class="navbar">
-        <div class="nav-div">
-
-            <div class="logo-name"><a href="#"><img src="{% static 'images/logo_graph.png' %}" alt="Logo"></a></div>
-            <div class="menu-list">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-            
-    </nav>
+    <div class="logo-name"><a href="#"><img src="{% static 'images/logo_graph.png' %}" alt="Logo"></a></div>
 
     <section class="home-section">
         {% block 'dashboard' %}

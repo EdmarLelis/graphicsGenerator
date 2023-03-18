@@ -7,25 +7,8 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, var(--base-color), black);
+    background-image: linear-gradient(145deg, var(--base-color), rgb(23, 66, 119));
     background-attachment: fixed;
-    color: white;
-}
-
-.navbar{
-    display: inline-block;
-    text-align: center;
-    width: 100vw;
-    min-height: 120px;
-    background-color: var(--main-color);
-    font-size: 20px;
-}
-
-.nav-div{
-    display: inline-block;
-}
-
-.nav-list a{
     color: white;
 }
 
@@ -36,40 +19,4 @@ body {
 img {
     margin-top: 5px;
     max-width: 250px;
-}
-
-nav {
-    letter-spacing: normal;
-    background-image: linear-gradient(to bottom, var(--main-color), rgb(26, 26, 255));    
-    border-radius: 0px 0px 25px 25px;
-}
-
-.menu-list {
-}
-
-.nav-list{
-    text-align: center;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    width: 100vw;
-    color: white;
-}
-
-li {
-    cursor: pointer;
-    margin-top: 35px;
-    margin-left: 70px;
-    margin-right: 70px;
-}
-
-li a:hover{
-    color: rgb(255, 255, 43);
-}
-
-#graphic-colum{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
 }
