@@ -13,12 +13,12 @@ Graphics Generator
 
     <div class="form">
 
-        <div class="selct">
-
+        <div class="select">
+            <p>Type of graphic:</p>
             <select name="type" id="type">
-                <option value="None">select</option>
-                <option value="Colums">Colums</option>
-                <option value="Colums">Line</option>
+                <option value="None">None</option>
+                <option value="Colums">Colums graphics</option>
+                <option value="Colums">Line graphics</option>
             </select>
         
         </div>
@@ -27,18 +27,22 @@ Graphics Generator
 
             <br>
             <br>
-            <p>Title:*</p>
-            <input type="text" name="title" id="title" class="form-text">
+            <p>Graphic title:</p>
+            <input type="text" name="title" id="title" class="form-text" placeholder="Title">
             <br>
             <br>
-            <p>Values:*</p>
-            <input type="text" class='form-text'>
+            <p>Vertical values:</p>
+            <input type="text" class='form-text' placeholder="value1, value2, value3...">
             <br>
             <br>
-                
+            <p>Horizontal values:</p>
+            <input type="text" class='form-text' placeholder="value1, value2, value3...">
+            <br>
         </form>
 
-        <button onsubmit="">Submit</button>
+
+        <!-- transformar em input -->
+        <div class="submit"><span onclick="">Submit</span></div>
 
     </div>
 
