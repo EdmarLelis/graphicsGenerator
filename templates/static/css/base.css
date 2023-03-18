@@ -33,19 +33,9 @@ body {
     color: var(--accent-color);
 }
 
-.logo-name p{
-    color: var(--accent-color);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    font-weight: bolder;
-    height: 30px;
-    width: 100vw;
-    font-size: 45px;
-    letter-spacing: 0.1em;
-    font-style: italic;
+img {
+    margin-top: 5px;
+    max-width: 250px;
 }
 
 nav {
