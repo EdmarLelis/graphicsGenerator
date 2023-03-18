@@ -1,11 +1,45 @@
 {% extends 'base.html' %}
 
+
+{% block 'head' %}
+<link rel="stylesheet" href="../../templates/ {% static 'css/generator.css' %}">
+{% endblock 'head' %}
+
 {% block 'title' %}
 Graphics Generator
 {% endblock %}
 
 {% block 'dashboard' %}
 
-    <h1>Test Home</h1>
+    <div class="form">
+
+        <div class="selct">
+
+            <select name="type" id="type">
+                <option value="None">select</option>
+                <option value="Colums">Colums</option>
+                <option value="Colums">Line</option>
+            </select>
+        
+        </div>
+
+        <form action="">
+
+            <br>
+            <br>
+            <p>Title:*</p>
+            <input type="text" name="title" id="title" class="form-text">
+            <br>
+            <br>
+            <p>Values:*</p>
+            <input type="text" class='form-text'>
+            <br>
+            <br>
+                
+        </form>
+
+        <button onsubmit="">Submit</button>
+
+    </div>
 
 {% endblock 'dashboard' %}
